@@ -1,0 +1,20 @@
+import UIKit
+
+final class {{ module_info.name }}ModuleConfigurator {
+
+    // MARK: - Methods
+
+    func configure() -> {{ module_info.name }}ViewController {
+        let view = {{ module_info.name }}ViewController()
+        let presenter = {{ module_info.name }}Presenter()
+        let router = {{ module_info.name }}Router()
+
+        presenter.view = view
+        presenter.router = router
+        router.view = view
+        view.output = presenter
+
+        return view
+    }
+
+}

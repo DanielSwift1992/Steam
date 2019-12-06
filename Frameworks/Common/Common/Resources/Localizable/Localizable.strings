@@ -1,0 +1,27 @@
+"Login.greatingsUser" = "Hello,\n%@";
+"Login.greatings" = "Welcome";
+"Login.button.login" = "Login";
+"Login.button.anotherUser" = "As another user";
+
+"Authorization.BarButton.cancel" = "cancel";
+
+"Profile.title" = "Profile";
+"Profile.Level" = "%d level";
+"Profile.HeaderView.statistic" = "Statistic";
+"Profile.HeaderView.friends" = "Friends";
+
+"GameSession.title" = "Played for 2 weeks";
+
+"Statistics.title" = "Statistics";
+
+"Friends.title" = "Friends";
+
+"LocalStat.title" = "Detail Statistic";
+"LocalStat.CSGo.StatType.killDeathRate" = "K/D RATIO";
+"LocalStat.CSGo.StatType.killes" = "KILLS";
+"LocalStat.CSGo.StatType.timePlayed" = "TIME PLAYED";
+"LocalStat.CSGo.StatType.winRate" = "WIN %";
+"LocalStat.CSGo.StatType.accuracyRate" = "ACCURACY";
+"LocalStat.CSGo.StatType.headshotsRate" = "HEADSHOT";
+"LocalStat.CSGo.StatType.mvp" = "MVPs";
+"LocalStat.CSGo.title" = "CS GO";

@@ -7,12 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9F310DB6CBE5A0B8A96DB6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B616280D126C88B8A5F00 /* LoginViewController.swift */; };
+		0B593C333C44085092CC0E77 /* AuthorizationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0128FDB924B9667459181 /* AuthorizationRouterInput.swift */; };
+		1489B9F8BAB82D32925DC492 /* LoginModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9603AC27444722D2A16E7E2 /* LoginModuleConfigurator.swift */; };
+		1DDA0BE0AD8416EC726126F3 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC52421BF813F63FB499D5EA /* ProfileRouter.swift */; };
+		2D69829C1E7427DC493082BA /* PlayerStatRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52728F4A17DBF1E7E9FC641 /* PlayerStatRouterInput.swift */; };
+		304F4F433EDCC62B00D25748 /* GameSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5226B77CC755C3A416AC3FEA /* GameSessionViewController.swift */; };
+		30EAADC2B7C6A63B0D18F4D7 /* PlayerStatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD422E33A174B0F02F1AA3A /* PlayerStatRouter.swift */; };
+		42802D536CAF3C678F1C4B79 /* FriendListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79596BD50027A4488141992E /* FriendListPresenter.swift */; };
+		45B31DC0614A6A2B09EADF1B /* PlayerStatModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0A912B308DD2B488CD02CF /* PlayerStatModuleConfigurator.swift */; };
+		60F39DB8569B56C1ED7AA007 /* LocalPlayerStatModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A04AE199B2FEE07A2C295E /* LocalPlayerStatModuleConfigurator.swift */; };
+		645F8E9F8ADC12B0B9E4F9D0 /* AuthorizationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE96598D35597622991D05 /* AuthorizationPresenter.swift */; };
+		65111B5C23916C930070017A /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65111B5B23916C930070017A /* ProfileInteractor.swift */; };
+		653CC2272392A21B000EFD0C /* PlayerStatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653CC2262392A21B000EFD0C /* PlayerStatInteractor.swift */; };
+		653CC2322392BB2C000EFD0C /* PlayerStatAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653CC2312392BB2C000EFD0C /* PlayerStatAdapter.swift */; };
+		653CC2352392C20D000EFD0C /* PlayerStatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653CC2342392C20D000EFD0C /* PlayerStatCell.swift */; };
+		653E29412392EC5200EE96C9 /* CSGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E29402392EC5200EE96C9 /* CSGoViewController.swift */; };
+		653E29452392F07000EE96C9 /* CSGoIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E29442392F07000EE96C9 /* CSGoIconCell.swift */; };
+		653E29482392F67200EE96C9 /* PlayerStatStrategyControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E29472392F67200EE96C9 /* PlayerStatStrategyControllerBuilder.swift */; };
+		653E29532393B64D00EE96C9 /* CSGoAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E29522393B64D00EE96C9 /* CSGoAdapter.swift */; };
+		653E29562393B77900EE96C9 /* CSGoPlayerStatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E29552393B77900EE96C9 /* CSGoPlayerStatType.swift */; };
+		653E29582393C98200EE96C9 /* CSGoKillDeathCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E29572393C98200EE96C9 /* CSGoKillDeathCell.swift */; };
+		654926662389416A004D9578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6549266523894169004D9578 /* LaunchScreen.storyboard */; };
+		6549268123894E74004D9578 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6549267F23894E74004D9578 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6549268523894E79004D9578 /* Services.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6549268323894E79004D9578 /* Services.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		654F70F82386F4DE00B6FBBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F70F72386F4DE00B6FBBF /* AppDelegate.swift */; };
-		654F70FA2386F4DE00B6FBBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F70F92386F4DE00B6FBBF /* ViewController.swift */; };
-		654F70FD2386F4DE00B6FBBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654F70FB2386F4DE00B6FBBF /* Main.storyboard */; };
-		654F70FF2386F4DF00B6FBBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654F70FE2386F4DF00B6FBBF /* Assets.xcassets */; };
-		654F71022386F4DF00B6FBBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654F71002386F4DF00B6FBBF /* LaunchScreen.storyboard */; };
 		654F710D2386F4DF00B6FBBF /* SteamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F710C2386F4DF00B6FBBF /* SteamTests.swift */; };
+		654F71772386FBFA00B6FBBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654F71762386FBFA00B6FBBF /* Images.xcassets */; };
+		654F71792387039100B6FBBF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F71782387039100B6FBBF /* AppCoordinator.swift */; };
+		655F09312392553B0073462E /* FirendListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F09302392553B0073462E /* FirendListInteractor.swift */; };
+		655F0934239257A70073462E /* FriendListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F0933239257A70073462E /* FriendListAdapter.swift */; };
+		655F0937239258130073462E /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F0936239258130073462E /* PlayerCell.swift */; };
+		656155A7238FC74C009E56CF /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656155A6238FC74C009E56CF /* GameCell.swift */; };
+		65A10D75238A84FF008A25AC /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65A10D73238A84FF008A25AC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65A10D9C238D9426008A25AC /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A10D9B238D9426008A25AC /* ProfileImageView.swift */; };
+		65A10DAB238F1008008A25AC /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A10DAA238F1007008A25AC /* ProfileHeaderView.swift */; };
+		65A10DAE238F1677008A25AC /* ProfileAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A10DAD238F1677008A25AC /* ProfileAdapter.swift */; };
+		65CF829490A4428440EC3A86 /* GameSessionControllerContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDB7691A6AB1D682CC0F93 /* GameSessionControllerContracts.swift */; };
+		65FF70EC239844A2008E9127 /* GameSessionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF70EB239844A2008E9127 /* GameSessionAdapter.swift */; };
+		65FF70EF239845C2008E9127 /* RecentlyPlayedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF70EE239845C2008E9127 /* RecentlyPlayedCell.swift */; };
+		6AFA0B0B494D3F32D0062638 /* FriendListRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E9A6199FF42B18E207F44 /* FriendListRouterInput.swift */; };
+		7179C14206B80D910CD04DA1 /* ProfileModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932E377C10B73DFDCFC5A40 /* ProfileModuleConfigurator.swift */; };
+		7D94E6FA61897BDACF31306D /* FriendListControllerContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE70781737C01CDE90DB6CD /* FriendListControllerContracts.swift */; };
+		7E6F0D566C81BD625E8E88EA /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AE191C6518A04D5FA1DC5E /* AuthorizationViewController.swift */; };
+		82555C4BD825AC5C9E7DF613 /* AuthorizationControllerContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DB06B2885745F19A718BF /* AuthorizationControllerContracts.swift */; };
+		87B4D1284FAACE06813E47BD /* LocalPlayerStatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CFF2F6CDBDE6C14F905CAC /* LocalPlayerStatRouter.swift */; };
+		8ACDE528EA305E3F111E6AE0 /* FriendListModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D3AB946535B3D80FE4A5B3 /* FriendListModuleConfigurator.swift */; };
+		961057E9DD0AF862708979F0 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD79C94527ADC559E0C02CF /* ProfilePresenter.swift */; };
+		9660927EBA2D9C16B9BE2E10 /* LoginControllerContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1A8795377D52CEFF1E564D /* LoginControllerContracts.swift */; };
+		A65540C0638EA521B628DC3F /* Pods_SteamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DDCD26296418018B0A890E /* Pods_SteamTests.framework */; };
+		AA1BC50A7477616FF36D5D65 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8651CD1F87D12846AABD5 /* LoginPresenter.swift */; };
+		AD76C701EC82A1E9A19D702A /* AuthorizationModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058563A4102F254E2DEB5B3 /* AuthorizationModuleConfigurator.swift */; };
+		AF9F07B7C4EC49BB02CE58AF /* MainTabBarModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473CD5384CDA1CCB97657444 /* MainTabBarModuleConfigurator.swift */; };
+		B05D0792F0204F74446DFDF2 /* LoginRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67936ACDA053474DF5C11964 /* LoginRouterInput.swift */; };
+		B47BF1BFA448DFEA9AA13819 /* GameSessionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E08826AB2A165D45E5636A1 /* GameSessionRouter.swift */; };
+		B958E5D9250E31A0F9B4687B /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DBF06DAACB94D564AD54F /* LoginRouter.swift */; };
+		BFE8B9E0FB2E7C4CF00C80FA /* PlayerStatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533C91260D5100965DF1A3C /* PlayerStatViewController.swift */; };
+		C3BA7FC2C62564C412D84156 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67583CE17E4E99DDA1817958 /* ProfileViewController.swift */; };
+		C515BA7E34F3581D1D604305 /* PlayerStatControllerContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B327C825A2E792CCA6066864 /* PlayerStatControllerContracts.swift */; };
+		D1D0F1FB1F9CE0A1D274DB2F /* LocalPlayerStatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06777CC72AD9E16E372DA0B /* LocalPlayerStatPresenter.swift */; };
+		D5666F3919A1B142CA45261A /* PlayerStatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5385E702682542A029FE25 /* PlayerStatPresenter.swift */; };
+		D9E1693D4907E61348EF54CE /* GameSessionModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41A02229B8F0B2C93D36A6 /* GameSessionModuleConfigurator.swift */; };
+		DA7CD20283542847CEB688C3 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17B3C307492E1F62BF1CE5 /* FriendListViewController.swift */; };
+		DA81CA3759A67212C064E4CB /* AuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6E71E906411010D41E07B4 /* AuthorizationRouter.swift */; };
+		DDEE954D3B50F9E7168220C4 /* LocalPlayerStatRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69B7FB446C7194FA0B289C /* LocalPlayerStatRouterInput.swift */; };
+		DF38B3E28E4ED4081FFD31DE /* LocalPlayerStatControllerContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FB896EC24A6295BB9CFC8 /* LocalPlayerStatControllerContracts.swift */; };
+		E0427FE8A8A0E8B5A9B00B11 /* GameSessionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6814266F4B94D2C07B62D7D /* GameSessionPresenter.swift */; };
+		EAE73C85349767095938AD69 /* FriendListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E49EB5F97FA6AB82FEC58 /* FriendListRouter.swift */; };
+		EAF3CFC038195B3692B60EE6 /* Pods_Steam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2C7B869C25EF862E96E58D /* Pods_Steam.framework */; };
+		EBFAB915FE8C1FDE0ED337B5 /* ProfileControllerContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5910A40F87ADC98D55FBB04 /* ProfileControllerContracts.swift */; };
+		EDFE833F55CD85E0B9EC9C0E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363110B63F56E293A2DA3BD /* MainTabBarViewController.swift */; };
+		F52A32F85AF4B8E5CF039D0B /* GameSessionRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3B953DB2F7C87897D63E8 /* GameSessionRouterInput.swift */; };
+		F7C810E8277D0E65327E9BCE /* ProfileRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CF845789B94AF68E3B8DE5 /* ProfileRouterInput.swift */; };
+		FB2D175E5351733199E9C4E7 /* LocalPlayerStatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A327C73A11F3075A131A9D /* LocalPlayerStatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,17 +92,105 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6549268223894E74004D9578 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6549268523894E79004D9578 /* Services.framework in Embed Frameworks */,
+				65A10D75238A84FF008A25AC /* Core.framework in Embed Frameworks */,
+				6549268123894E74004D9578 /* Common.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0E08826AB2A165D45E5636A1 /* GameSessionRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameSessionRouter.swift; sourceTree = "<group>"; };
+		1058563A4102F254E2DEB5B3 /* AuthorizationModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationModuleConfigurator.swift; sourceTree = "<group>"; };
+		11A327C73A11F3075A131A9D /* LocalPlayerStatViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalPlayerStatViewController.swift; sourceTree = "<group>"; };
+		1C0A912B308DD2B488CD02CF /* PlayerStatModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayerStatModuleConfigurator.swift; sourceTree = "<group>"; };
+		284DBF06DAACB94D564AD54F /* LoginRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		2A2B616280D126C88B8A5F00 /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		38CF845789B94AF68E3B8DE5 /* ProfileRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileRouterInput.swift; sourceTree = "<group>"; };
+		39D3B953DB2F7C87897D63E8 /* GameSessionRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameSessionRouterInput.swift; sourceTree = "<group>"; };
+		468E9A6199FF42B18E207F44 /* FriendListRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FriendListRouterInput.swift; sourceTree = "<group>"; };
+		473CD5384CDA1CCB97657444 /* MainTabBarModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarModuleConfigurator.swift; sourceTree = "<group>"; };
+		4F8DB06B2885745F19A718BF /* AuthorizationControllerContracts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationControllerContracts.swift; sourceTree = "<group>"; };
+		5226B77CC755C3A416AC3FEA /* GameSessionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameSessionViewController.swift; sourceTree = "<group>"; };
+		59D3AB946535B3D80FE4A5B3 /* FriendListModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FriendListModuleConfigurator.swift; sourceTree = "<group>"; };
+		5E1A8795377D52CEFF1E564D /* LoginControllerContracts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginControllerContracts.swift; sourceTree = "<group>"; };
+		65111B5B23916C930070017A /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileInteractor.swift; path = "../New Group/ProfileInteractor.swift"; sourceTree = "<group>"; };
+		653CC2262392A21B000EFD0C /* PlayerStatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatInteractor.swift; sourceTree = "<group>"; };
+		653CC2312392BB2C000EFD0C /* PlayerStatAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatAdapter.swift; sourceTree = "<group>"; };
+		653CC2342392C20D000EFD0C /* PlayerStatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatCell.swift; sourceTree = "<group>"; };
+		653E29402392EC5200EE96C9 /* CSGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGoViewController.swift; sourceTree = "<group>"; };
+		653E29442392F07000EE96C9 /* CSGoIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGoIconCell.swift; sourceTree = "<group>"; };
+		653E29472392F67200EE96C9 /* PlayerStatStrategyControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatStrategyControllerBuilder.swift; sourceTree = "<group>"; };
+		653E29522393B64D00EE96C9 /* CSGoAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGoAdapter.swift; sourceTree = "<group>"; };
+		653E29552393B77900EE96C9 /* CSGoPlayerStatType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGoPlayerStatType.swift; sourceTree = "<group>"; };
+		653E29572393C98200EE96C9 /* CSGoKillDeathCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSGoKillDeathCell.swift; sourceTree = "<group>"; };
+		6549266523894169004D9578 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6549267F23894E74004D9578 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6549268323894E79004D9578 /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6549269D23897CE7004D9578 /* Steam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Steam-Bridging-Header.h"; sourceTree = "<group>"; };
 		654F70F42386F4DE00B6FBBF /* Steam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		654F70F72386F4DE00B6FBBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		654F70F92386F4DE00B6FBBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		654F70FC2386F4DE00B6FBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		654F70FE2386F4DF00B6FBBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		654F71012386F4DF00B6FBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		654F71032386F4DF00B6FBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		654F71082386F4DF00B6FBBF /* SteamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		654F710C2386F4DF00B6FBBF /* SteamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTests.swift; sourceTree = "<group>"; };
 		654F710E2386F4DF00B6FBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654F71762386FBFA00B6FBBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		654F71782387039100B6FBBF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		655F09302392553B0073462E /* FirendListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirendListInteractor.swift; sourceTree = "<group>"; };
+		655F0933239257A70073462E /* FriendListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListAdapter.swift; sourceTree = "<group>"; };
+		655F0936239258130073462E /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		656155A6238FC74C009E56CF /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		65A10D73238A84FF008A25AC /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A10D9B238D9426008A25AC /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		65A10DAA238F1007008A25AC /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		65A10DAD238F1677008A25AC /* ProfileAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAdapter.swift; sourceTree = "<group>"; };
+		65FF70EB239844A2008E9127 /* GameSessionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSessionAdapter.swift; sourceTree = "<group>"; };
+		65FF70EE239845C2008E9127 /* RecentlyPlayedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedCell.swift; sourceTree = "<group>"; };
+		67583CE17E4E99DDA1817958 /* ProfileViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		67936ACDA053474DF5C11964 /* LoginRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginRouterInput.swift; sourceTree = "<group>"; };
+		69F0128FDB924B9667459181 /* AuthorizationRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationRouterInput.swift; sourceTree = "<group>"; };
+		6F17B3C307492E1F62BF1CE5 /* FriendListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		6FF63BC069B13065693D1022 /* Pods-Steam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Steam.release.xcconfig"; path = "Target Support Files/Pods-Steam/Pods-Steam.release.xcconfig"; sourceTree = "<group>"; };
+		79596BD50027A4488141992E /* FriendListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FriendListPresenter.swift; sourceTree = "<group>"; };
+		7CA8651CD1F87D12846AABD5 /* LoginPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		89926363F2D3AED573CD7879 /* Pods-SteamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamTests.debug.xcconfig"; path = "Target Support Files/Pods-SteamTests/Pods-SteamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE70781737C01CDE90DB6CD /* FriendListControllerContracts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FriendListControllerContracts.swift; sourceTree = "<group>"; };
+		8F2C7B869C25EF862E96E58D /* Pods_Steam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Steam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		978E49EB5F97FA6AB82FEC58 /* FriendListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FriendListRouter.swift; sourceTree = "<group>"; };
+		A52728F4A17DBF1E7E9FC641 /* PlayerStatRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayerStatRouterInput.swift; sourceTree = "<group>"; };
+		A9603AC27444722D2A16E7E2 /* LoginModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginModuleConfigurator.swift; sourceTree = "<group>"; };
+		AB6E71E906411010D41E07B4 /* AuthorizationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationRouter.swift; sourceTree = "<group>"; };
+		B06777CC72AD9E16E372DA0B /* LocalPlayerStatPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalPlayerStatPresenter.swift; sourceTree = "<group>"; };
+		B327C825A2E792CCA6066864 /* PlayerStatControllerContracts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayerStatControllerContracts.swift; sourceTree = "<group>"; };
+		B4DDCD26296418018B0A890E /* Pods_SteamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B932E377C10B73DFDCFC5A40 /* ProfileModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileModuleConfigurator.swift; sourceTree = "<group>"; };
+		BB94FBEC901C24ACE0A784B8 /* Pods-SteamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteamTests.release.xcconfig"; path = "Target Support Files/Pods-SteamTests/Pods-SteamTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA41A02229B8F0B2C93D36A6 /* GameSessionModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameSessionModuleConfigurator.swift; sourceTree = "<group>"; };
+		CC52421BF813F63FB499D5EA /* ProfileRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		CE69B7FB446C7194FA0B289C /* LocalPlayerStatRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalPlayerStatRouterInput.swift; sourceTree = "<group>"; };
+		CF3DA0FB41FC36BF8DE9B2CB /* Pods-Steam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Steam.debug.xcconfig"; path = "Target Support Files/Pods-Steam/Pods-Steam.debug.xcconfig"; sourceTree = "<group>"; };
+		D0EDB7691A6AB1D682CC0F93 /* GameSessionControllerContracts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameSessionControllerContracts.swift; sourceTree = "<group>"; };
+		D2AE191C6518A04D5FA1DC5E /* AuthorizationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		D533C91260D5100965DF1A3C /* PlayerStatViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerStatViewController.swift; path = Steam/PlayerStat/View/PlayerStatViewController.swift; sourceTree = SOURCE_ROOT; };
+		E0A04AE199B2FEE07A2C295E /* LocalPlayerStatModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalPlayerStatModuleConfigurator.swift; sourceTree = "<group>"; };
+		E5910A40F87ADC98D55FBB04 /* ProfileControllerContracts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileControllerContracts.swift; sourceTree = "<group>"; };
+		E6814266F4B94D2C07B62D7D /* GameSessionPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameSessionPresenter.swift; sourceTree = "<group>"; };
+		EF4FB896EC24A6295BB9CFC8 /* LocalPlayerStatControllerContracts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalPlayerStatControllerContracts.swift; sourceTree = "<group>"; };
+		EFD79C94527ADC559E0C02CF /* ProfilePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		F363110B63F56E293A2DA3BD /* MainTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		F6CFF2F6CDBDE6C14F905CAC /* LocalPlayerStatRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalPlayerStatRouter.swift; sourceTree = "<group>"; };
+		FB5385E702682542A029FE25 /* PlayerStatPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayerStatPresenter.swift; sourceTree = "<group>"; };
+		FFD422E33A174B0F02F1AA3A /* PlayerStatRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayerStatRouter.swift; sourceTree = "<group>"; };
+		FFEE96598D35597622991D05 /* AuthorizationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthorizationPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF3CFC038195B3692B60EE6 /* Pods_Steam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +206,336 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65540C0638EA521B628DC3F /* Pods_SteamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02AE932F0478F7302130EE74 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F6CFF2F6CDBDE6C14F905CAC /* LocalPlayerStatRouter.swift */,
+				CE69B7FB446C7194FA0B289C /* LocalPlayerStatRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		074840E680A2306EB6FBFDE6 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				A9603AC27444722D2A16E7E2 /* LoginModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		0B13C05716DB243BC35115AF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B06777CC72AD9E16E372DA0B /* LocalPlayerStatPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		124E154FDBE9B903C0DB6A4C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				284DBF06DAACB94D564AD54F /* LoginRouter.swift */,
+				67936ACDA053474DF5C11964 /* LoginRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		157AE204DB06832F4F1AC84F /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				653E29462392F64700EE96C9 /* Helpers */,
+				1C0A912B308DD2B488CD02CF /* PlayerStatModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		1A233ADB7C82E40035A8DAE2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FFD422E33A174B0F02F1AA3A /* PlayerStatRouter.swift */,
+				A52728F4A17DBF1E7E9FC641 /* PlayerStatRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1C050ACD7CB232B807AEC989 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				6467F33B30F57C0392EF0FDC /* Configurator */,
+				6BC567E72EDBED7984BE5067 /* Router */,
+				F4D6806561EAF1D2BFFF6BC2 /* Presenter */,
+				7C82FFAA43678C2622058F4B /* View */,
+			);
+			path = FriendList;
+			sourceTree = "<group>";
+		};
+		2D589088495F4FBB78EB735D /* LocalPlayerStat */ = {
+			isa = PBXGroup;
+			children = (
+				A17B98B64D7C012EA71E5650 /* Configurator */,
+				02AE932F0478F7302130EE74 /* Router */,
+				0B13C05716DB243BC35115AF /* Presenter */,
+				8445EFAB6D4AC886ED7A76BD /* View */,
+			);
+			path = LocalPlayerStat;
+			sourceTree = "<group>";
+		};
+		30F874402FC4943C7F927FAB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				074840E680A2306EB6FBFDE6 /* Configurator */,
+				124E154FDBE9B903C0DB6A4C /* Router */,
+				5F9BD7C17E3011C0D731395C /* Presenter */,
+				C2196B550E591A16DE783FE2 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		392853EA76FFD77DAE0F8D05 /* GameSession */ = {
+			isa = PBXGroup;
+			children = (
+				DE0693F5DE3F1B488B062EDE /* Configurator */,
+				393DFE5980EBDFFA06871AD6 /* Router */,
+				FFA82789B3947E80E558D7B8 /* Presenter */,
+				E30F4E08CE1201BC7A4A3B7D /* View */,
+			);
+			path = GameSession;
+			sourceTree = "<group>";
+		};
+		393DFE5980EBDFFA06871AD6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0E08826AB2A165D45E5636A1 /* GameSessionRouter.swift */,
+				39D3B953DB2F7C87897D63E8 /* GameSessionRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		482D08EC9EE21A9B06D29FE4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FFEE96598D35597622991D05 /* AuthorizationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4E2F5CB23B4074A4CBA702BC /* PlayerStat */ = {
+			isa = PBXGroup;
+			children = (
+				157AE204DB06832F4F1AC84F /* Configurator */,
+				1A233ADB7C82E40035A8DAE2 /* Router */,
+				7F3E20917E15FFCAD6B112F6 /* Presenter */,
+				80AA722955A99CF9504CD323 /* View */,
+			);
+			path = PlayerStat;
+			sourceTree = "<group>";
+		};
+		5178851AD60797BD97E9D9F6 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				473CD5384CDA1CCB97657444 /* MainTabBarModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		5422A0ADDAA6CC2E68B163E7 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				B932E377C10B73DFDCFC5A40 /* ProfileModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		58D455075057F51252D85C45 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CC52421BF813F63FB499D5EA /* ProfileRouter.swift */,
+				38CF845789B94AF68E3B8DE5 /* ProfileRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5DB9D88819BC332687C64ED7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2AE191C6518A04D5FA1DC5E /* AuthorizationViewController.swift */,
+				4F8DB06B2885745F19A718BF /* AuthorizationControllerContracts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E4AA59BF76DC7DD5A16E9D0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5422A0ADDAA6CC2E68B163E7 /* Configurator */,
+				58D455075057F51252D85C45 /* Router */,
+				879B5253AA8F550CA6F0FF08 /* Presenter */,
+				8C4166EEBA224C9D7CFC0965 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5F9BD7C17E3011C0D731395C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7CA8651CD1F87D12846AABD5 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		63D7E8F39829294A07AE226C /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5178851AD60797BD97E9D9F6 /* Configurator */,
+				BDA94ABE18680C4FA7A329D4 /* View */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		6467F33B30F57C0392EF0FDC /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				59D3AB946535B3D80FE4A5B3 /* FriendListModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		65111B5D23916C960070017A /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				65111B5B23916C930070017A /* ProfileInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		653CC2252392A20B000EFD0C /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				653CC2262392A21B000EFD0C /* PlayerStatInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		653CC2302392BB11000EFD0C /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				653CC2312392BB2C000EFD0C /* PlayerStatAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		653CC2332392C206000EFD0C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				653CC2342392C20D000EFD0C /* PlayerStatCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		653E29422392F05800EE96C9 /* CSGoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				653E29542393B75A00EE96C9 /* Helpers */,
+				653E29512393B63800EE96C9 /* Adapter */,
+				653E29432392F06A00EE96C9 /* Cells */,
+				653E29402392EC5200EE96C9 /* CSGoViewController.swift */,
+			);
+			path = CSGoViewController;
+			sourceTree = "<group>";
+		};
+		653E29432392F06A00EE96C9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				653E29442392F07000EE96C9 /* CSGoIconCell.swift */,
+				653E29572393C98200EE96C9 /* CSGoKillDeathCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		653E29462392F64700EE96C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				653E29472392F67200EE96C9 /* PlayerStatStrategyControllerBuilder.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		653E29512393B63800EE96C9 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				653E29522393B64D00EE96C9 /* CSGoAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		653E29542393B75A00EE96C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				653E29552393B77900EE96C9 /* CSGoPlayerStatType.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		65426C3823919E6400E1850C /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				65A10DAD238F1677008A25AC /* ProfileAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		6546DE10239A4BBD000878ED /* PlayerStatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				653CC2332392C206000EFD0C /* Cells */,
+				653CC2302392BB11000EFD0C /* Adapters */,
+				D533C91260D5100965DF1A3C /* PlayerStatViewController.swift */,
+			);
+			path = PlayerStatViewController;
+			sourceTree = "<group>";
+		};
+		65492658238851C6004D9578 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				654F70F72386F4DE00B6FBBF /* AppDelegate.swift */,
+				654F71782387039100B6FBBF /* AppCoordinator.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		65492659238851DE004D9578 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				654F71032386F4DF00B6FBBF /* Info.plist */,
+				654F71762386FBFA00B6FBBF /* Images.xcassets */,
+				6549269D23897CE7004D9578 /* Steam-Bridging-Header.h */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		6549266423894153004D9578 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6549266523894169004D9578 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
 		654F70EB2386F4DE00B6FBBF = {
 			isa = PBXGroup;
 			children = (
 				654F70F62386F4DE00B6FBBF /* Steam */,
 				654F710B2386F4DF00B6FBBF /* SteamTests */,
 				654F70F52386F4DE00B6FBBF /* Products */,
+				F286F228479C4D11242D328E /* Pods */,
+				78FAE79A2E47D59A1DF98C69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +551,17 @@
 		654F70F62386F4DE00B6FBBF /* Steam */ = {
 			isa = PBXGroup;
 			children = (
-				654F70F72386F4DE00B6FBBF /* AppDelegate.swift */,
-				654F70F92386F4DE00B6FBBF /* ViewController.swift */,
-				654F70FB2386F4DE00B6FBBF /* Main.storyboard */,
-				654F70FE2386F4DF00B6FBBF /* Assets.xcassets */,
-				654F71002386F4DF00B6FBBF /* LaunchScreen.storyboard */,
-				654F71032386F4DF00B6FBBF /* Info.plist */,
+				6549266423894153004D9578 /* LaunchScreen */,
+				65492659238851DE004D9578 /* Support Files */,
+				65492658238851C6004D9578 /* Application */,
+				30F874402FC4943C7F927FAB /* Login */,
+				E37FE38527109AF21B6E7523 /* Authorization */,
+				63D7E8F39829294A07AE226C /* MainTabBar */,
+				5E4AA59BF76DC7DD5A16E9D0 /* Profile */,
+				392853EA76FFD77DAE0F8D05 /* GameSession */,
+				1C050ACD7CB232B807AEC989 /* FriendList */,
+				4E2F5CB23B4074A4CBA702BC /* PlayerStat */,
+				2D589088495F4FBB78EB735D /* LocalPlayerStat */,
 			);
 			path = Steam;
 			sourceTree = "<group>";
@@ -96,6 +575,244 @@
 			path = SteamTests;
 			sourceTree = "<group>";
 		};
+		655F092F2392552C0073462E /* FirendListInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				655F09302392553B0073462E /* FirendListInteractor.swift */,
+			);
+			path = FirendListInteractor;
+			sourceTree = "<group>";
+		};
+		655F09322392578B0073462E /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				655F0933239257A70073462E /* FriendListAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		655F0935239257F80073462E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				655F0936239258130073462E /* PlayerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		65A10D9A238D9417008A25AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65A10DAA238F1007008A25AC /* ProfileHeaderView.swift */,
+				65A10D9B238D9426008A25AC /* ProfileImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65A10DA9238F0FEC008A25AC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				656155A6238FC74C009E56CF /* GameCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		65FF70EA23984491008E9127 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				65FF70EB239844A2008E9127 /* GameSessionAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		65FF70ED239845A1008E9127 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				65FF70EE239845C2008E9127 /* RecentlyPlayedCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6822BE1A54CB28B4FAAEE6C1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AB6E71E906411010D41E07B4 /* AuthorizationRouter.swift */,
+				69F0128FDB924B9667459181 /* AuthorizationRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6BC567E72EDBED7984BE5067 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				978E49EB5F97FA6AB82FEC58 /* FriendListRouter.swift */,
+				468E9A6199FF42B18E207F44 /* FriendListRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		78FAE79A2E47D59A1DF98C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A10D73238A84FF008A25AC /* Core.framework */,
+				6549268323894E79004D9578 /* Services.framework */,
+				6549267F23894E74004D9578 /* Common.framework */,
+				8F2C7B869C25EF862E96E58D /* Pods_Steam.framework */,
+				B4DDCD26296418018B0A890E /* Pods_SteamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C82FFAA43678C2622058F4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				655F0935239257F80073462E /* Cells */,
+				655F09322392578B0073462E /* Adapters */,
+				6F17B3C307492E1F62BF1CE5 /* FriendListViewController.swift */,
+				8BE70781737C01CDE90DB6CD /* FriendListControllerContracts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F3E20917E15FFCAD6B112F6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				653CC2252392A20B000EFD0C /* Interactors */,
+				FB5385E702682542A029FE25 /* PlayerStatPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		80AA722955A99CF9504CD323 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6546DE10239A4BBD000878ED /* PlayerStatViewController */,
+				653E29422392F05800EE96C9 /* CSGoViewController */,
+				B327C825A2E792CCA6066864 /* PlayerStatControllerContracts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8445EFAB6D4AC886ED7A76BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11A327C73A11F3075A131A9D /* LocalPlayerStatViewController.swift */,
+				EF4FB896EC24A6295BB9CFC8 /* LocalPlayerStatControllerContracts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		879B5253AA8F550CA6F0FF08 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				65111B5D23916C960070017A /* Interactors */,
+				EFD79C94527ADC559E0C02CF /* ProfilePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8C4166EEBA224C9D7CFC0965 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65426C3823919E6400E1850C /* Adapters */,
+				65A10DA9238F0FEC008A25AC /* Cells */,
+				65A10D9A238D9417008A25AC /* Views */,
+				67583CE17E4E99DDA1817958 /* ProfileViewController.swift */,
+				E5910A40F87ADC98D55FBB04 /* ProfileControllerContracts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A17B98B64D7C012EA71E5650 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				E0A04AE199B2FEE07A2C295E /* LocalPlayerStatModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		B299002AF68F4E3BE41E4573 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				1058563A4102F254E2DEB5B3 /* AuthorizationModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		BDA94ABE18680C4FA7A329D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F363110B63F56E293A2DA3BD /* MainTabBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2196B550E591A16DE783FE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B616280D126C88B8A5F00 /* LoginViewController.swift */,
+				5E1A8795377D52CEFF1E564D /* LoginControllerContracts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE0693F5DE3F1B488B062EDE /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				CA41A02229B8F0B2C93D36A6 /* GameSessionModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E30F4E08CE1201BC7A4A3B7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65FF70EA23984491008E9127 /* Adapter */,
+				65FF70ED239845A1008E9127 /* Cells */,
+				5226B77CC755C3A416AC3FEA /* GameSessionViewController.swift */,
+				D0EDB7691A6AB1D682CC0F93 /* GameSessionControllerContracts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E37FE38527109AF21B6E7523 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				B299002AF68F4E3BE41E4573 /* Configurator */,
+				6822BE1A54CB28B4FAAEE6C1 /* Router */,
+				482D08EC9EE21A9B06D29FE4 /* Presenter */,
+				5DB9D88819BC332687C64ED7 /* View */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		F286F228479C4D11242D328E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DA0FB41FC36BF8DE9B2CB /* Pods-Steam.debug.xcconfig */,
+				6FF63BC069B13065693D1022 /* Pods-Steam.release.xcconfig */,
+				89926363F2D3AED573CD7879 /* Pods-SteamTests.debug.xcconfig */,
+				BB94FBEC901C24ACE0A784B8 /* Pods-SteamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4D6806561EAF1D2BFFF6BC2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				655F092F2392552C0073462E /* FirendListInteractor */,
+				79596BD50027A4488141992E /* FriendListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FFA82789B3947E80E558D7B8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E6814266F4B94D2C07B62D7D /* GameSessionPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +820,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 654F71112386F4DF00B6FBBF /* Build configuration list for PBXNativeTarget "Steam" */;
 			buildPhases = (
+				2F6B420E50F92CD2E5202BDD /* [CP] Check Pods Manifest.lock */,
 				654F70F02386F4DE00B6FBBF /* Sources */,
 				654F70F12386F4DE00B6FBBF /* Frameworks */,
 				654F70F22386F4DE00B6FBBF /* Resources */,
+				F4E9A9BE09832AA83B507860 /* [CP] Embed Pods Frameworks */,
+				6549268223894E74004D9578 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +840,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 654F71142386F4DF00B6FBBF /* Build configuration list for PBXNativeTarget "SteamTests" */;
 			buildPhases = (
+				4AD0352DF59559E896F25F28 /* [CP] Check Pods Manifest.lock */,
 				654F71042386F4DF00B6FBBF /* Sources */,
 				654F71052386F4DF00B6FBBF /* Frameworks */,
 				654F71062386F4DF00B6FBBF /* Resources */,
@@ -177,9 +898,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654F71022386F4DF00B6FBBF /* LaunchScreen.storyboard in Resources */,
-				654F70FF2386F4DF00B6FBBF /* Assets.xcassets in Resources */,
-				654F70FD2386F4DE00B6FBBF /* Main.storyboard in Resources */,
+				654F71772386FBFA00B6FBBF /* Images.xcassets in Resources */,
+				654926662389416A004D9578 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +912,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F6B420E50F92CD2E5202BDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Steam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD0352DF59559E896F25F28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SteamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E9A9BE09832AA83B507860 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Steam/Pods-Steam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/PinLayout/PinLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Steam/Pods-Steam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		654F70F02386F4DE00B6FBBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654F70FA2386F4DE00B6FBBF /* ViewController.swift in Sources */,
+				653E29532393B64D00EE96C9 /* CSGoAdapter.swift in Sources */,
+				655F09312392553B0073462E /* FirendListInteractor.swift in Sources */,
+				654F71792387039100B6FBBF /* AppCoordinator.swift in Sources */,
+				653CC2322392BB2C000EFD0C /* PlayerStatAdapter.swift in Sources */,
 				654F70F82386F4DE00B6FBBF /* AppDelegate.swift in Sources */,
+				1489B9F8BAB82D32925DC492 /* LoginModuleConfigurator.swift in Sources */,
+				653E29562393B77900EE96C9 /* CSGoPlayerStatType.swift in Sources */,
+				B958E5D9250E31A0F9B4687B /* LoginRouter.swift in Sources */,
+				B05D0792F0204F74446DFDF2 /* LoginRouterInput.swift in Sources */,
+				AA1BC50A7477616FF36D5D65 /* LoginPresenter.swift in Sources */,
+				653CC2272392A21B000EFD0C /* PlayerStatInteractor.swift in Sources */,
+				0A9F310DB6CBE5A0B8A96DB6 /* LoginViewController.swift in Sources */,
+				9660927EBA2D9C16B9BE2E10 /* LoginControllerContracts.swift in Sources */,
+				AD76C701EC82A1E9A19D702A /* AuthorizationModuleConfigurator.swift in Sources */,
+				DA81CA3759A67212C064E4CB /* AuthorizationRouter.swift in Sources */,
+				0B593C333C44085092CC0E77 /* AuthorizationRouterInput.swift in Sources */,
+				653E29412392EC5200EE96C9 /* CSGoViewController.swift in Sources */,
+				65111B5C23916C930070017A /* ProfileInteractor.swift in Sources */,
+				656155A7238FC74C009E56CF /* GameCell.swift in Sources */,
+				645F8E9F8ADC12B0B9E4F9D0 /* AuthorizationPresenter.swift in Sources */,
+				65A10DAE238F1677008A25AC /* ProfileAdapter.swift in Sources */,
+				7E6F0D566C81BD625E8E88EA /* AuthorizationViewController.swift in Sources */,
+				82555C4BD825AC5C9E7DF613 /* AuthorizationControllerContracts.swift in Sources */,
+				65A10DAB238F1008008A25AC /* ProfileHeaderView.swift in Sources */,
+				AF9F07B7C4EC49BB02CE58AF /* MainTabBarModuleConfigurator.swift in Sources */,
+				EDFE833F55CD85E0B9EC9C0E /* MainTabBarViewController.swift in Sources */,
+				7179C14206B80D910CD04DA1 /* ProfileModuleConfigurator.swift in Sources */,
+				1DDA0BE0AD8416EC726126F3 /* ProfileRouter.swift in Sources */,
+				F7C810E8277D0E65327E9BCE /* ProfileRouterInput.swift in Sources */,
+				655F0937239258130073462E /* PlayerCell.swift in Sources */,
+				961057E9DD0AF862708979F0 /* ProfilePresenter.swift in Sources */,
+				C3BA7FC2C62564C412D84156 /* ProfileViewController.swift in Sources */,
+				EBFAB915FE8C1FDE0ED337B5 /* ProfileControllerContracts.swift in Sources */,
+				D9E1693D4907E61348EF54CE /* GameSessionModuleConfigurator.swift in Sources */,
+				65A10D9C238D9426008A25AC /* ProfileImageView.swift in Sources */,
+				653E29582393C98200EE96C9 /* CSGoKillDeathCell.swift in Sources */,
+				653E29482392F67200EE96C9 /* PlayerStatStrategyControllerBuilder.swift in Sources */,
+				B47BF1BFA448DFEA9AA13819 /* GameSessionRouter.swift in Sources */,
+				F52A32F85AF4B8E5CF039D0B /* GameSessionRouterInput.swift in Sources */,
+				E0427FE8A8A0E8B5A9B00B11 /* GameSessionPresenter.swift in Sources */,
+				304F4F433EDCC62B00D25748 /* GameSessionViewController.swift in Sources */,
+				65CF829490A4428440EC3A86 /* GameSessionControllerContracts.swift in Sources */,
+				8ACDE528EA305E3F111E6AE0 /* FriendListModuleConfigurator.swift in Sources */,
+				65FF70EC239844A2008E9127 /* GameSessionAdapter.swift in Sources */,
+				65FF70EF239845C2008E9127 /* RecentlyPlayedCell.swift in Sources */,
+				EAE73C85349767095938AD69 /* FriendListRouter.swift in Sources */,
+				655F0934239257A70073462E /* FriendListAdapter.swift in Sources */,
+				6AFA0B0B494D3F32D0062638 /* FriendListRouterInput.swift in Sources */,
+				653CC2352392C20D000EFD0C /* PlayerStatCell.swift in Sources */,
+				42802D536CAF3C678F1C4B79 /* FriendListPresenter.swift in Sources */,
+				653E29452392F07000EE96C9 /* CSGoIconCell.swift in Sources */,
+				DA7CD20283542847CEB688C3 /* FriendListViewController.swift in Sources */,
+				7D94E6FA61897BDACF31306D /* FriendListControllerContracts.swift in Sources */,
+				45B31DC0614A6A2B09EADF1B /* PlayerStatModuleConfigurator.swift in Sources */,
+				30EAADC2B7C6A63B0D18F4D7 /* PlayerStatRouter.swift in Sources */,
+				2D69829C1E7427DC493082BA /* PlayerStatRouterInput.swift in Sources */,
+				D5666F3919A1B142CA45261A /* PlayerStatPresenter.swift in Sources */,
+				BFE8B9E0FB2E7C4CF00C80FA /* PlayerStatViewController.swift in Sources */,
+				C515BA7E34F3581D1D604305 /* PlayerStatControllerContracts.swift in Sources */,
+				60F39DB8569B56C1ED7AA007 /* LocalPlayerStatModuleConfigurator.swift in Sources */,
+				87B4D1284FAACE06813E47BD /* LocalPlayerStatRouter.swift in Sources */,
+				DDEE954D3B50F9E7168220C4 /* LocalPlayerStatRouterInput.swift in Sources */,
+				D1D0F1FB1F9CE0A1D274DB2F /* LocalPlayerStatPresenter.swift in Sources */,
+				FB2D175E5351733199E9C4E7 /* LocalPlayerStatViewController.swift in Sources */,
+				DF38B3E28E4ED4081FFD31DE /* LocalPlayerStatControllerContracts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,25 +1083,6 @@
 			targetProxy = 654F71092386F4DF00B6FBBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		654F70FB2386F4DE00B6FBBF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				654F70FC2386F4DE00B6FBBF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		654F71002386F4DF00B6FBBF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				654F71012386F4DF00B6FBBF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		654F710F2386F4DF00B6FBBF /* Debug */ = {
@@ -291,7 +1136,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +1191,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,42 +1203,49 @@
 		};
 		654F71122386F4DF00B6FBBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF3DA0FB41FC36BF8DE9B2CB /* Pods-Steam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BJJLUYA64;
-				INFOPLIST_FILE = Steam/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Steam/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DanielSwift.Steam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Steam/Support Files/Steam-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		654F71132386F4DF00B6FBBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF63BC069B13065693D1022 /* Pods-Steam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BJJLUYA64;
-				INFOPLIST_FILE = Steam/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Steam/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DanielSwift.Steam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Steam/Support Files/Steam-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		654F71152386F4DF00B6FBBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89926363F2D3AED573CD7879 /* Pods-SteamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +1267,7 @@
 		};
 		654F71162386F4DF00B6FBBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB94FBEC901C24ACE0A784B8 /* Pods-SteamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

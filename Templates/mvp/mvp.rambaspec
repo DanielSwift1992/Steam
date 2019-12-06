@@ -1,0 +1,23 @@
+# Template information section
+name: "mvp"
+summary: ""
+author: "Strizhov"
+version: "1.0.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# Configurator
+- {name: Configurator/ModuleConfigurator.swift, path: Code/Configurator/module_configurator.swift.liquid}
+
+# Router layer
+- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+- {name: Router/RouterInput.swift, path: Code/Router/router_input.swift.liquid}
+
+# Presenter layer
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# View layer
+- {name: View/ViewController.swift, path: Code/View/view_controller.swift.liquid}
+- {name: View/ControllerContracts.swift,  path: Code/View/view_contracts.swift.liquid}
