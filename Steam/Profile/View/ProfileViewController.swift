@@ -42,7 +42,6 @@ extension ProfileViewController: ProfileViewInput {
         appendSubviews()
         setConstraints()
         configureViews()
-
         setDelegates()
         setInitialStateForSpinnerAnimation()
     }
@@ -61,7 +60,7 @@ extension ProfileViewController: ProfileViewInput {
     func configureNavigationBar() {
         navigationController?.apply {
             $0.setNavigationBarHidden(false, animated: true)
-            $0.applyDefaultNavigationBarStyle()
+            $0.removeTheShadow()
         }
 
         [parent?.navigationItem, navigationItem].forEach {

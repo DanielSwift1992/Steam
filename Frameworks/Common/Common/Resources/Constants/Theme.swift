@@ -5,7 +5,7 @@ public enum Theme { }
 public extension Theme {
 
     static var textTitle: UIColor {
-        ColorName.textTitle.color
+        fromStyle(any: .textTitleLight, dark: .textTitleDark)
     }
 
     static var subText: UIColor {
@@ -33,7 +33,11 @@ public extension Theme {
     }
 
     static var chartColor: UIColor {
-        ColorName.chartColor.color
+        fromStyle(any: .chartColorLight, dark: .chartColorDark)
+    }
+
+    static var mainAccentShadow: UIColor {
+        fromStyle(any: .mainAccentShadowLight, dark: .mainAccentShadowDark)
     }
 
 }

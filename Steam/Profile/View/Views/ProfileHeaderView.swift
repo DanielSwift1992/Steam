@@ -116,6 +116,7 @@ private extension ProfileHeaderView {
             $0.setTitle(L10n.Profile.HeaderView.friends, for: .normal)
             $0.setTitleColor(Theme.textTitle, for: .normal)
             $0.setTitleColor(Theme.mainAccent, for: .highlighted)
+            $0.setTitleColor(Theme.mainAccent, for: .focused)
             $0.addBorder(color: Constants.borderColor, width: 1, to: .top, .bottom)
             $0.addBorder(color: Constants.borderColor, width: 0.5, to: .left, .bottom)
             $0.addTarget(self, action: #selector(friendsDidTap), for: .touchUpInside)
@@ -125,6 +126,7 @@ private extension ProfileHeaderView {
             $0.setTitle(L10n.Profile.HeaderView.statistic, for: .normal)
             $0.setTitleColor(Theme.textTitle, for: .normal)
             $0.setTitleColor(Theme.mainAccent, for: .highlighted)
+            $0.setTitleColor(Theme.mainAccent, for: .focused)
             $0.addBorder(color: Constants.borderColor, width: 1, to: .top, .bottom)
             $0.addBorder(color: Constants.borderColor, width: 0.5, to: .right, .bottom)
             $0.addTarget(self, action: #selector(statisticDidTap), for: .touchUpInside)
@@ -154,14 +156,14 @@ private extension ProfileHeaderView {
         }
 
         profileView.snp.makeConstraints {
-            $0.top.equalTo(levelLabel.snp.bottom).offset(8)
-            $0.size.height.equalTo(200).priority(.high)
+            $0.top.equalTo(levelLabel.snp.bottom).offset(4)
+            $0.size.height.equalTo(212).priority(.high)
             $0.left.equalToSuperview().offset(16)
             $0.right.equalToSuperview().offset(-16)
         }
 
         nameLabel.snp.makeConstraints {
-            $0.top.equalTo(profileView.snp.bottom).offset(8)
+            $0.top.equalTo(profileView.snp.bottom)
             $0.left.equalToSuperview().offset(16)
             $0.right.equalToSuperview().offset(-16)
         }

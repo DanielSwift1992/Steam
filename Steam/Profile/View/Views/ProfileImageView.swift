@@ -5,7 +5,7 @@ final class ProfileImageView: UIView {
     // MARK: - Constants
 
     private enum Constants {
-        static let offsetMultiplier: CGFloat = 3
+        static let offsetMultiplier: CGFloat = 5
     }
 
     // MARK: - Subviews
@@ -13,6 +13,7 @@ final class ProfileImageView: UIView {
     let imageView = UIImageView()
     private let lineShapeLayer = CAShapeLayer()
     private let lineBackShapeLayer = CAShapeLayer()
+    private let gradientLayer = CAGradientLayer()
 
     // MARK: - Private Properties
 
@@ -22,8 +23,16 @@ final class ProfileImageView: UIView {
         }
     }
 
+    private var isShadowNeeded: Bool {
+        if #available(iOS 12.0, *) {
+            return traitCollection.userInterfaceStyle == .dark
+        } else {
+            return false
+        }
+    }
+
     private let lineWidth: CGFloat = 3
-    private let lineShadowOffset: CGFloat = 5
+    private let lineShadowOffset: CGFloat = 4
     private let lineBackWidth: CGFloat = 1
 
     // MARK: - Initialization
@@ -39,6 +48,11 @@ final class ProfileImageView: UIView {
     }
 
     // MARK: - UIView
+
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        configureViews()
+    }
 
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -80,7 +94,7 @@ private extension ProfileImageView {
     }
 
     var lineRadius: CGFloat {
-        side / 2 - lineOffset
+        side / 2 - lineOffset * 2
     }
 
 }
@@ -99,10 +113,6 @@ private extension ProfileImageView {
         lineShapeLayer.apply {
             $0.strokeColor = Theme.mainAccent.cgColor
             $0.fillColor = UIColor.clear.cgColor
-            $0.shadowColor = Theme.mainAccent.cgColor
-            $0.shadowOpacity = 1
-            $0.shadowOffset = .zero
-            $0.shadowRadius = lineShadowOffset
             $0.lineCap = .round
             $0.strokeEnd = 0
             $0.lineWidth = lineWidth
@@ -119,7 +129,33 @@ private extension ProfileImageView {
             $0.clipsToBounds = true
             $0.backgroundColor = Theme.subBackground1
         }
+
+        gradientLayer.apply {
+            $0.frame = bounds
+            $0.colors = [Theme.mainAccent.cgColor, Theme.subAccent.cgColor]
+            $0.locations = [0, 1]
+            $0.startPoint = CGPoint(x: 0, y: 0.5)
+            $0.endPoint = CGPoint(x: 1, y: 0.5)
+            $0.mask = lineShapeLayer
+        }
+
+        configureShadow()
     }
+
+    func configureShadow() {
+        guard isShadowNeeded else {
+            lineShapeLayer.shadowRadius = 0
+            return
+        }
+
+        lineShapeLayer.apply {
+            $0.shadowColor = Theme.mainAccentShadow.cgColor
+            $0.shadowOpacity = 1
+            $0.shadowOffset = .zero
+            $0.shadowRadius = lineShadowOffset
+        }
+    }
+
 
     func configureLinePath() {
         lineShapeLayer.path = getPath(endPercent: percent).cgPath
@@ -145,7 +181,7 @@ private extension ProfileImageView {
 
     func appendSubviews() {
         add(subviews: imageView)
-        add(sublayers: lineBackShapeLayer, lineShapeLayer)
+        add(sublayers: lineBackShapeLayer, gradientLayer)
     }
 
     func layoutViews() {
@@ -156,6 +192,7 @@ private extension ProfileImageView {
         imageView.layer.cornerRadius = imageView.frame.height / 2
         configureLineBackPath()
         configureLinePath()
+        gradientLayer.frame = bounds
     }
 
 }

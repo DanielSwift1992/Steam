@@ -16,6 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundLaunch" translatesAutoresizingMaskIntoConstraints="NO" id="uV9-do-XSZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="nwR-nC-apb">
                                 <rect key="frame" x="157" y="253" width="100" height="100"/>
                                 <color key="tintColor" red="0.95294117647058818" green="0.0" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
@@ -25,10 +28,14 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.082352941176470587" green="0.10588235294117647" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="nwR-nC-apb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-145" id="Nxe-Oa-gWm"/>
+                            <constraint firstItem="uV9-do-XSZ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="QPs-ad-UcB"/>
+                            <constraint firstItem="uV9-do-XSZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Yjk-sK-FwN"/>
                             <constraint firstItem="nwR-nC-apb" firstAttribute="centerX" secondItem="Bcu-3y-fUS" secondAttribute="centerX" id="dmD-8y-2p5"/>
+                            <constraint firstAttribute="bottom" secondItem="uV9-do-XSZ" secondAttribute="bottom" id="rQ9-5C-aKq"/>
+                            <constraint firstAttribute="trailing" secondItem="uV9-do-XSZ" secondAttribute="trailing" id="xdz-9w-OKI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
@@ -40,5 +47,6 @@
     </scenes>
     <resources>
         <image name="LaunchLogo" width="99" height="100"/>
+        <image name="backgroundLaunch" width="10" height="10"/>
     </resources>
 </document>

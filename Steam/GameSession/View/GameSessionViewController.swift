@@ -51,7 +51,7 @@ extension GameSessionViewController: GameSessionViewInput {
 
     func configureNavigationBar() {
         navigationController?.setNavigationBarHidden(false, animated: true)
-        navigationController?.applyDefaultNavigationBarStyle()
+        navigationController?.removeTheShadow()
         parent?.navigationItem.title = L10n.GameSession.title
     }
 

@@ -75,7 +75,7 @@ extension AuthorizationViewController: WKNavigationDelegate {
 private extension AuthorizationViewController {
 
     func configureNavigationBar() {
-        navigationController?.applyDefaultNavigationBarStyle()
+        navigationController?.removeTheShadow()
         navigationItem.rightBarButtonItem = UIBarButtonItem(
             title: L10n.Authorization.BarButton.cancel,
             style: .plain,

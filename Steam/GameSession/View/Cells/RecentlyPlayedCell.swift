@@ -90,7 +90,7 @@ private extension RecentlyPlayedCell {
             $0.backgroundColor = Theme.mainAccent
             $0.layer.cornerRadius = 2
         }
-        backgroundColor = Theme.subBackground2
+        backgroundColor = Theme.mainBackground
     }
 
     func setupForReuse() {
