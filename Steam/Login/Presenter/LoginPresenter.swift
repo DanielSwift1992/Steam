@@ -22,15 +22,13 @@ extension LoginPresenter: LoginViewOutput {
     func viewLoaded() {
         view?.setupInitialState()
         setUserIfNeeded()
-        // TODO: - Remove
-//        authorizeUser()
+        authorizeUser()
     }
 
     func loginDidTap() {
         guard let steamId = userInfo?.steamId,
             !steamId.isEmpty else {
-//                anotherUserDidTap()
-                loadCurrentUser(steamId: "76561197960434622") // TODO: - Remove
+                anotherUserDidTap()
                 return
         }
         loadCurrentUser(steamId: steamId)

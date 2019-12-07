@@ -60,7 +60,6 @@ public extension BackgroundWorkManager {
     }
 
     func start() {
-        // TODO remove comment
         DispatchQueue.global(qos: .background).async {
             self.setTimer()
         }
