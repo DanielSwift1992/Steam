@@ -22,7 +22,6 @@ extension LoginPresenter: LoginViewOutput {
     func viewLoaded() {
         view?.setupInitialState()
         setUserIfNeeded()
-        authorizeUser()
     }
 
     func loginDidTap() {
