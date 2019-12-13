@@ -2,12 +2,6 @@ public final class UrlBuilder {
 
     // MARK: - Constants
 
-    //76561197960434622
-    //76561197960265838
-
-    //
-    //BB7D33F903DE35D6EBE213319A8F36C9
-    //160A1E87653E30D9562DE9E5A47386E5
     private enum Constants {
         static let apiKeyParameter = "key=160A1E87653E30D9562DE9E5A47386E5"
         static let baseURL = "https://api.steampowered.com"
